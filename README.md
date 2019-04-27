@@ -1,3 +1,7 @@
 # Sway config files
 
-Everything goes in `~/.config/` unless otherwise stated
+Everything goes in `~/` unless otherwise stated
+
+## Pacman requirments
+
+sudo pacman -S sway swaylock swayidle swaylock waybar ttf-font-awesome ttf-fira-code waybar
