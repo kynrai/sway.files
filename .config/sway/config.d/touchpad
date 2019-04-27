@@ -1,0 +1,7 @@
+input "1739:52643:1A581000:00_06CB:CDA3_Touchpad" {
+	tap enabled
+	natural_scroll enabled
+	pointer_accel 0.6
+	dwt enabled
+	accel_profile adaptive
+}
