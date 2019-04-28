@@ -22,7 +22,7 @@ set $menu rofi -show run -theme Arc-Dark
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/Pictures/Wallpaper/Graphite-1920*1080.png fill
+output * bg ~/Pictures/Wallpaper/RZR_Space_1920x1080.png fill
 #
 # Example configuration:
 #
