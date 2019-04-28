@@ -1,0 +1,172 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: rgba(43, 48, 59, 0.0);
+    /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
+    color: #ffffff;
+}
+
+window#waybar.hidded {
+    opacity: 0.2;
+    background: transparent;
+}
+
+window#waybar.empty {
+    background: transparent;
+}
+
+window#waybar.solo {
+    background: transparent;
+}
+
+window#waybar.termite {
+    background-color: #3F3F3F;
+}
+
+window#waybar.chromium {
+    background-color: #DEE1E6;
+    color: #000000;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: #ffffff;
+    /* border-bottom: 3px solid transparent; */
+}
+
+#workspaces button.focused {
+    background: #64727D;
+    /* border-bottom: 3px solid #ffffff; */
+}
+
+#workspaces button.urgent {
+    background-color: #eb4d4b;
+}
+
+#mode {
+    background: #64727D;
+    /* border-bottom: 3px solid #ffffff; */
+}
+
+#clock, #battery, #cpu, #memory, #temperature, #backlight, #network, #pulseaudio, #custom-media, #tray, #mode, #idle_inhibitor {
+    padding: 0 10px;
+    margin: 0 2px;
+    color: #ffffff;
+}
+
+#clock {
+    background: transparent;
+}
+
+#battery {
+    background: transparent;
+}
+
+#battery.charging {
+    background: transparent;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background: transparent;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#cpu {
+    background: transparent;
+}
+
+#memory {
+    background: transparent;
+}
+
+#backlight {
+    background: transparent;
+}
+
+#network {
+    background: transparent;
+}
+
+#network.disconnected {
+    background: transparent;
+}
+
+#pulseaudio {
+    background: transparent;
+}
+
+#pulseaudio.muted {
+    background: transparent;
+}
+
+#custom-media {
+    background: #66cc99;
+    color: #2a5c45;
+}
+
+.custom-spotify {
+    background: #66cc99;
+}
+
+.custom-vlc {
+    background: #ffa000;
+}
+
+#temperature {
+    background: transparent;
+}
+
+#temperature.critical {
+    background: transparent;
+}
+
+#tray {
+    background: transparent;
+}
+
+#idle_inhibitor {
+    background: transparent;
+}
+
+#idle_inhibitor.activated {
+    background: transparent;
+}
+
+#mpd {
+    background: transparent;
+}
+
+#mpd.disconnected {
+    background: transparent;
+}
+
+#mpd.stopped {
+    background: transparent;
+}
+
+#mpd.paused {
+    background: transparent;
+}
