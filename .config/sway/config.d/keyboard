@@ -1,0 +1,3 @@
+input "5426:569:Razer_Razer_Blade_Keyboard" {
+	xkb_options caps:escape
+}
