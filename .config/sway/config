@@ -197,6 +197,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 for_window [app_id="pavucontrol"] floating enable
+for_window [app_id="blueberry.py"] floating enable
 assign [class="Firefox"] workspace 1
 
 exec mako
