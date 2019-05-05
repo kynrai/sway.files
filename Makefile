@@ -5,7 +5,7 @@ copy:
 	cp -r ~/.config/swaylock .config/ && \
 	cp -r ~/.config/waybar .config/ && \
 	cp -r ~/.config/ranger .config/ && \
-	cp -r ~/.local/share/dbus-1/services .local/share/dbus-1 && \
+	cp -r ~/.local/share/dbus-1 .local/share/ && \
 	cp ~/.zlogin . && \
 	cp ~/.bash_profile .
 .PHONY: copy
